@@ -10,6 +10,14 @@ def overNs(n: Int): List[Int] => List[Int] = {
 // scala> overNs(1)(nums)
 // val res22: List[Int] = List(5, 2, 4)
 
+def overNs2(n: Int) (nums: List[Int]): List[Int] = {
+  nums.filter(num => num > n)
+}
+// scala> overNs2(4)(nums)
+// val res25: List[Int] = List(5)
+                                                                                                                     
+// scala> overNs2(1)(nums)
+// val res26: List[Int] = List(5, 2, 4)
 
 def largerThan(n: Int): Int => Boolean = i => i > n
 // scala> nums.filter(largerThan(4))
