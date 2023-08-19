@@ -24,6 +24,24 @@ def extractAnyYearIfNameExists(rawShow: String): Option[Int] = {
 
 // ------
 
+// この関数だと、エラーが起こったこと(None)は分かるが、なにがエラーの原因なのかわからない
+def parseShows(rawShows: List[String]): Option[List[TvShow]] = {
+  val initial: Option[List[TvShow]] = Some(List.empty)
+  rawShows.map(parseShow)
+          .foldLeft(initial)(addOrResign) // 1つでもエラー(None)があれば全体がNoneにする(addOrResign)
+}
+// scala> parseShows(List("The Wire (2002-2008)"))
+// val res0: Option[List[TvShow]] = Some(List(TvShow(The Wire,2002,2008)))                                                                                                               
+// scala> parseShows(List("The Wire (2002-2008)", "aaa"))
+// val res1: Option[List[TvShow]] = None
+
+def addOrResign(parsedShows: Option[List[TvShow]], newParsedShow: Option[TvShow]): Option[List[TvShow]] = {
+  for {
+    shows <- parsedShows
+    parsedShow <- newParsedShow
+  } yield shows.appended(parsedShow)
+}
+
 def parseShow(rawShow: String): Option[TvShow] = {
   for {
     name <- extractName(rawShow)
