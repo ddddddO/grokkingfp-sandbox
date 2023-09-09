@@ -5,22 +5,24 @@
   - local: ~/github.com/ddddddO/grokkingfp-examples
 
 ```console
-$ sbt console
-[warn] No sbt.version set in project/build.properties, base directory: /home/ochi/github.com/ddddddO/grokkingfp-sandbox
-[info] welcome to sbt 1.9.3 (Oracle Corporation Java 11.0.2)
+~/github.com/ddddddO/grokkingfp-sandbox
+12:56:10 > sbt console
+[info] welcome to sbt 1.9.3 (Oracle Corporation Java 17.0.8)
+[info] loading project definition from /home/ochi/github.com/ddddddO/grokkingfp-sandbox/project
+[info] loading settings for project root from build.sbt ...
 [info] set current project to grokkingfp-sandbox (in build file:/home/ochi/github.com/ddddddO/grokkingfp-sandbox/)
-[info] Starting scala interpreter...
-Welcome to Scala 2.12.18 (OpenJDK 64-Bit Server VM, Java 11.0.2).
+[info] compiling 1 Scala source to /home/ochi/github.com/ddddddO/grokkingfp-sandbox/target/scala-3.3.0/classes ...
+Welcome to Scala 3.3.0 (17.0.8, Java Java HotSpot(TM) 64-Bit Server VM).
 Type in expressions for evaluation. Or try :help.
-
+                                                                                                                                                        
 scala> :load hello.scala
-Loading hello.scala...
-hello: (s: String)String
+// defined object aaa
+                                                                                                                                                        
+scala> print(aaa.hello("world"))
+Hello, world!!~
 
-scala> print(hello("world"))
-Hello, world!!
-scala> 10 + 4
-res2: Int = 14
-
-scala>
+scala> 9 + 3
+val res0: Int = 12
+          
+scala> 
 ```
