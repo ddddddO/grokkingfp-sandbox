@@ -4,6 +4,14 @@
 - [本家のサンプルコード](https://github.com/miciek/grokkingfp-examples)
   - local: ~/github.com/ddddddO/grokkingfp-examples
 
+- 純粋関数（P270）
+  - 戻り値は常に一つだけ
+  - 引数だけを使う
+  - 既存の値を変更しない
+
+
+## local実行例
+
 ```console
 ~/github.com/ddddddO/grokkingfp-sandbox
 12:56:10 > sbt console
