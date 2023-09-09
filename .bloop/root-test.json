@@ -1,0 +1,1969 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root-test",
+        "directory": "/home/ochi/github.com/ddddddO/grokkingfp-sandbox",
+        "workspaceDir": "/home/ochi/github.com/ddddddO/grokkingfp-sandbox",
+        "sources": [
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/src/test/scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/src/test/scala-3",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/src/test/java",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/target/scala-3.3.0/src_managed/test",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/4_41.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/2_19.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/4_17.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/ch08_SchedulingMeetings.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/7_29.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/4_33.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/3_19.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/4_56.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/6_47.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/3_15.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/hello.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/7_32.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/7_37.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/6_29.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/4_28.scala",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/8_15.scala"
+        ],
+        "dependencies": [
+            "root"
+        ],
+        "classpath": [
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/.bloop/root/scala-3/classes",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.0/scala3-library_3-3.3.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_3/3.5.1/cats-effect_3-3.5.1.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/co/fs2/fs2-core_3/3.8.0/fs2-core_3-3.8.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_3/3.2.16/scalatest_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/scalacheck-1-16_3/3.2.14.0/scalacheck-1-16_3-3.2.14.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.20/akka-actor_2.13-2.6.20.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-fuseki-main/4.9.0/jena-fuseki-main-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.7/slf4j-nop-2.0.7.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.1/cats-effect-kernel_3-3.5.1.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.1/cats-effect-std_3-3.5.1.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scodec/scodec-bits_3/1.1.37/scodec-bits_3-1.1.37.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.9.0/cats-core_3-2.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_3/3.2.16/scalatest-core_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_3/3.2.16/scalatest-featurespec_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_3/3.2.16/scalatest-flatspec_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_3/3.2.16/scalatest-freespec_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_3/3.2.16/scalatest-funsuite_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_3/3.2.16/scalatest-funspec_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_3/3.2.16/scalatest-propspec_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_3/3.2.16/scalatest-refspec_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_3/3.2.16/scalatest-wordspec_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_3/3.2.16/scalatest-diagrams_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_3/3.2.16/scalatest-matchers-core_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_3/3.2.16/scalatest-shouldmatchers_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_3/3.2.16/scalatest-mustmatchers_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_3/1.16.0/scalacheck_3-1.16.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.0/scala-java8-compat_2.13-1.0.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-rdfpatch/4.9.0/jena-rdfpatch-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-shacl/4.9.0/jena-shacl-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-shex/4.9.0/jena-shex-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-tdb/4.9.0/jena-tdb-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-tdb2/4.9.0/jena-tdb2-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-rdfconnection/4.9.0/jena-rdfconnection-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-fuseki-core/4.9.0/jena-fuseki-core-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-fuseki-access/4.9.0/jena-fuseki-access-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-cmds/4.9.0/jena-cmds-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/10.0.15/jetty-xml-10.0.15.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.9.0/cats-kernel_3-2.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_3/3.2.16/scalactic_3-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.16/scalatest-compatible-3.2.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_3/2.1.0/scala-xml_3-2.1.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-arq/4.9.0/jena-arq-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-storage/4.9.0/jena-dboe-storage-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/10.0.15/jetty-servlet-10.0.15.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlets/10.0.15/jetty-servlets-10.0.15.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/micrometer/micrometer-core/1.11.1/micrometer-core-1.11.1.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/micrometer/micrometer-registry-prometheus/1.11.1/micrometer-registry-prometheus-1.11.1.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/10.0.15/jetty-util-10.0.15.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-core/4.9.0/jena-core-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/jsonld-java/jsonld-java/0.13.4/jsonld-java-0.13.4.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-cache/4.5.14/httpclient-cache-4.5.14.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/apicatalog/titanium-json-ld/1.3.2/titanium-json-ld-1.3.2.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jakarta.json/2.0.1/jakarta.json-2.0.1.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.23.3/protobuf-java-3.23.3.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/thrift/libthrift/0.18.1/libthrift-0.18.1.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-trans-data/4.9.0/jena-dboe-trans-data-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/10.0.15/jetty-security-10.0.15.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/10.0.15/jetty-http-10.0.15.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/10.0.15/jetty-io-10.0.15.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/micrometer/micrometer-commons/1.11.1/micrometer-commons-1.11.1.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/micrometer/micrometer-observation/1.11.1/micrometer-observation-1.11.1.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.16.0/simpleclient_common-0.16.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-base/4.9.0/jena-base-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-iri/4.9.0/jena-iri-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.9.45/RoaringBitmap-0.9.45.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-transaction/4.9.0/jena-dboe-transaction-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-index/4.9.0/jena-dboe-index-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/10.0.15/jetty-server-10.0.15.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-csv/1.10.0/commons-csv-1.10.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.23.0/commons-compress-1.23.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.6/caffeine-3.1.6.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/andrewoma/dexx/collection/0.7/collection-0.7.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/roaringbitmap/shims/0.9.45/shims-0.9.45.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-base/4.9.0/jena-dboe-base-4.9.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6/jetty-servlet-api-4.0.6.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar",
+            "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar"
+        ],
+        "out": "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/.bloop/root",
+        "classesDir": "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/.bloop/root/scala-3/test-classes",
+        "resources": [
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/src/test/resources",
+            "/home/ochi/github.com/ddddddO/grokkingfp-sandbox/target/scala-3.3.0/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "3.3.0",
+            "options": [
+                "-unchecked",
+                "-deprecation",
+                "-explain"
+            ],
+            "jars": [
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.0/scala3-library_3-3.3.0.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.3.0/scala3-compiler_3-3.3.0.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.3.0/scala3-interfaces-3.3.0.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.3.0/tasty-core_3-3.3.0.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.4.0-scala-1/scala-asm-9.4.0-scala-1.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.3.0/scaladoc_3-3.3.0.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.3.0/scala3-tasty-inspector_3-3.3.0.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.14.3/jsoup-1.14.3.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.3/jackson-dataformat-yaml-2.13.3.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar",
+                "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/home/ochi/.sdkman/candidates/java/17.0.8-oracle",
+                "options": [
+                    "-Duser.dir=/home/ochi/github.com/ddddddO/grokkingfp-sandbox"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala3-library_3",
+                    "version": "3.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala3-library_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.0/scala3-library_3-3.3.0.jar"
+                        },
+                        {
+                            "name": "scala3-library_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.0/scala3-library_3-3.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect_3",
+                    "version": "3.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_3/3.5.1/cats-effect_3-3.5.1.jar"
+                        },
+                        {
+                            "name": "cats-effect_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_3/3.5.1/cats-effect_3-3.5.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "co.fs2",
+                    "name": "fs2-core_3",
+                    "version": "3.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fs2-core_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/co/fs2/fs2-core_3/3.8.0/fs2-core_3-3.8.0.jar"
+                        },
+                        {
+                            "name": "fs2-core_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/co/fs2/fs2-core_3/3.8.0/fs2-core_3-3.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.akka",
+                    "name": "akka-actor_2.13",
+                    "version": "2.6.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "akka-actor_2.13",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.20/akka-actor_2.13-2.6.20.jar"
+                        },
+                        {
+                            "name": "akka-actor_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.20/akka-actor_2.13-2.6.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-fuseki-main",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-fuseki-main",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-fuseki-main/4.9.0/jena-fuseki-main-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-fuseki-main",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-fuseki-main/4.9.0/jena-fuseki-main-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-nop",
+                    "version": "2.0.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-nop",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.7/slf4j-nop-2.0.7.jar"
+                        },
+                        {
+                            "name": "slf4j-nop",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-nop/2.0.7/slf4j-nop-2.0.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect-kernel_3",
+                    "version": "3.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect-kernel_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.1/cats-effect-kernel_3-3.5.1.jar"
+                        },
+                        {
+                            "name": "cats-effect-kernel_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.1/cats-effect-kernel_3-3.5.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect-std_3",
+                    "version": "3.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect-std_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.1/cats-effect-std_3-3.5.1.jar"
+                        },
+                        {
+                            "name": "cats-effect-std_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.1/cats-effect-std_3-3.5.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scodec",
+                    "name": "scodec-bits_3",
+                    "version": "1.1.37",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scodec-bits_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scodec/scodec-bits_3/1.1.37/scodec-bits_3-1.1.37.jar"
+                        },
+                        {
+                            "name": "scodec-bits_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scodec/scodec-bits_3/1.1.37/scodec-bits_3-1.1.37-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-core_3",
+                    "version": "2.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.9.0/cats-core_3-2.9.0.jar"
+                        },
+                        {
+                            "name": "cats-core_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.9.0/cats-core_3-2.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-java8-compat_2.13",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.0/scala-java8-compat_2.13-1.0.0.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/1.0.0/scala-java8-compat_2.13-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-rdfpatch",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-rdfpatch",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-rdfpatch/4.9.0/jena-rdfpatch-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-rdfpatch",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-rdfpatch/4.9.0/jena-rdfpatch-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-shacl",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-shacl",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-shacl/4.9.0/jena-shacl-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-shacl",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-shacl/4.9.0/jena-shacl-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-shex",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-shex",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-shex/4.9.0/jena-shex-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-shex",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-shex/4.9.0/jena-shex-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-tdb",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-tdb",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-tdb/4.9.0/jena-tdb-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-tdb",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-tdb/4.9.0/jena-tdb-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-tdb2",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-tdb2",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-tdb2/4.9.0/jena-tdb2-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-tdb2",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-tdb2/4.9.0/jena-tdb2-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-rdfconnection",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-rdfconnection",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-rdfconnection/4.9.0/jena-rdfconnection-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-rdfconnection",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-rdfconnection/4.9.0/jena-rdfconnection-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-fuseki-core",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-fuseki-core",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-fuseki-core/4.9.0/jena-fuseki-core-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-fuseki-core",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-fuseki-core/4.9.0/jena-fuseki-core-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-fuseki-access",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-fuseki-access",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-fuseki-access/4.9.0/jena-fuseki-access-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-fuseki-access",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-fuseki-access/4.9.0/jena-fuseki-access-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-cmds",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-cmds",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-cmds/4.9.0/jena-cmds-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-cmds",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-cmds/4.9.0/jena-cmds-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-xml",
+                    "version": "10.0.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-xml",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/10.0.15/jetty-xml-10.0.15.jar"
+                        },
+                        {
+                            "name": "jetty-xml",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/10.0.15/jetty-xml-10.0.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "2.0.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.7/slf4j-api-2.0.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_3",
+                    "version": "2.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.9.0/cats-kernel_3-2.9.0.jar"
+                        },
+                        {
+                            "name": "cats-kernel_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.9.0/cats-kernel_3-2.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-arq",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-arq",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-arq/4.9.0/jena-arq-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-arq",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-arq/4.9.0/jena-arq-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-dboe-storage",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-dboe-storage",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-storage/4.9.0/jena-dboe-storage-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-dboe-storage",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-storage/4.9.0/jena-dboe-storage-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-servlet",
+                    "version": "10.0.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-servlet",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/10.0.15/jetty-servlet-10.0.15.jar"
+                        },
+                        {
+                            "name": "jetty-servlet",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/10.0.15/jetty-servlet-10.0.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-servlets",
+                    "version": "10.0.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-servlets",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlets/10.0.15/jetty-servlets-10.0.15.jar"
+                        },
+                        {
+                            "name": "jetty-servlets",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlets/10.0.15/jetty-servlets-10.0.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.micrometer",
+                    "name": "micrometer-core",
+                    "version": "1.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "micrometer-core",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/micrometer/micrometer-core/1.11.1/micrometer-core-1.11.1.jar"
+                        },
+                        {
+                            "name": "micrometer-core",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/micrometer/micrometer-core/1.11.1/micrometer-core-1.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.micrometer",
+                    "name": "micrometer-registry-prometheus",
+                    "version": "1.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "micrometer-registry-prometheus",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/micrometer/micrometer-registry-prometheus/1.11.1/micrometer-registry-prometheus-1.11.1.jar"
+                        },
+                        {
+                            "name": "micrometer-registry-prometheus",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/micrometer/micrometer-registry-prometheus/1.11.1/micrometer-registry-prometheus-1.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-util",
+                    "version": "10.0.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-util",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/10.0.15/jetty-util-10.0.15.jar"
+                        },
+                        {
+                            "name": "jetty-util",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/10.0.15/jetty-util-10.0.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-core",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-core",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-core/4.9.0/jena-core-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-core",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-core/4.9.0/jena-core-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.jsonld-java",
+                    "name": "jsonld-java",
+                    "version": "0.13.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsonld-java",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/jsonld-java/jsonld-java/0.13.4/jsonld-java-0.13.4.jar"
+                        },
+                        {
+                            "name": "jsonld-java",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/jsonld-java/jsonld-java/0.13.4/jsonld-java-0.13.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.gson",
+                    "name": "gson",
+                    "version": "2.10.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gson",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
+                        },
+                        {
+                            "name": "gson",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpclient-cache",
+                    "version": "4.5.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpclient-cache",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-cache/4.5.14/httpclient-cache-4.5.14.jar"
+                        },
+                        {
+                            "name": "httpclient-cache",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient-cache/4.5.14/httpclient-cache-4.5.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpclient",
+                    "version": "4.5.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpclient",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar"
+                        },
+                        {
+                            "name": "httpclient",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jcl-over-slf4j",
+                    "version": "1.7.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jcl-over-slf4j",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36.jar"
+                        },
+                        {
+                            "name": "jcl-over-slf4j",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.36/jcl-over-slf4j-1.7.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.15.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.15.2/jackson-core-2.15.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.15.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.15.2/jackson-databind-2.15.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.apicatalog",
+                    "name": "titanium-json-ld",
+                    "version": "1.3.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "titanium-json-ld",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/apicatalog/titanium-json-ld/1.3.2/titanium-json-ld-1.3.2.jar"
+                        },
+                        {
+                            "name": "titanium-json-ld",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/apicatalog/titanium-json-ld/1.3.2/titanium-json-ld-1.3.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish",
+                    "name": "jakarta.json",
+                    "version": "2.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.json",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jakarta.json/2.0.1/jakarta.json-2.0.1.jar"
+                        },
+                        {
+                            "name": "jakarta.json",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jakarta.json/2.0.1/jakarta.json-2.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.protobuf",
+                    "name": "protobuf-java",
+                    "version": "3.23.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "protobuf-java",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.23.3/protobuf-java-3.23.3.jar"
+                        },
+                        {
+                            "name": "protobuf-java",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.23.3/protobuf-java-3.23.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.thrift",
+                    "name": "libthrift",
+                    "version": "0.18.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "libthrift",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/thrift/libthrift/0.18.1/libthrift-0.18.1.jar"
+                        },
+                        {
+                            "name": "libthrift",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/thrift/libthrift/0.18.1/libthrift-0.18.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-lang3",
+                    "version": "3.12.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar"
+                        },
+                        {
+                            "name": "commons-lang3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-dboe-trans-data",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-dboe-trans-data",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-trans-data/4.9.0/jena-dboe-trans-data-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-dboe-trans-data",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-trans-data/4.9.0/jena-dboe-trans-data-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-security",
+                    "version": "10.0.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-security",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/10.0.15/jetty-security-10.0.15.jar"
+                        },
+                        {
+                            "name": "jetty-security",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/10.0.15/jetty-security-10.0.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-http",
+                    "version": "10.0.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-http",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/10.0.15/jetty-http-10.0.15.jar"
+                        },
+                        {
+                            "name": "jetty-http",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/10.0.15/jetty-http-10.0.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-io",
+                    "version": "10.0.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-io",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/10.0.15/jetty-io-10.0.15.jar"
+                        },
+                        {
+                            "name": "jetty-io",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/10.0.15/jetty-io-10.0.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.micrometer",
+                    "name": "micrometer-commons",
+                    "version": "1.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "micrometer-commons",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/micrometer/micrometer-commons/1.11.1/micrometer-commons-1.11.1.jar"
+                        },
+                        {
+                            "name": "micrometer-commons",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/micrometer/micrometer-commons/1.11.1/micrometer-commons-1.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.micrometer",
+                    "name": "micrometer-observation",
+                    "version": "1.11.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "micrometer-observation",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/micrometer/micrometer-observation/1.11.1/micrometer-observation-1.11.1.jar"
+                        },
+                        {
+                            "name": "micrometer-observation",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/micrometer/micrometer-observation/1.11.1/micrometer-observation-1.11.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hdrhistogram",
+                    "name": "HdrHistogram",
+                    "version": "2.1.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "HdrHistogram",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar"
+                        },
+                        {
+                            "name": "HdrHistogram",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.latencyutils",
+                    "name": "LatencyUtils",
+                    "version": "2.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "LatencyUtils",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar"
+                        },
+                        {
+                            "name": "LatencyUtils",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.prometheus",
+                    "name": "simpleclient_common",
+                    "version": "0.16.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simpleclient_common",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.16.0/simpleclient_common-0.16.0.jar"
+                        },
+                        {
+                            "name": "simpleclient_common",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_common/0.16.0/simpleclient_common-0.16.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-base",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-base",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-base/4.9.0/jena-base-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-base",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-base/4.9.0/jena-base-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-iri",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-iri",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-iri/4.9.0/jena-iri-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-iri",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-iri/4.9.0/jena-iri-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-cli",
+                    "name": "commons-cli",
+                    "version": "1.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-cli",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0.jar"
+                        },
+                        {
+                            "name": "commons-cli",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-cli/commons-cli/1.5.0/commons-cli-1.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.roaringbitmap",
+                    "name": "RoaringBitmap",
+                    "version": "0.9.45",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "RoaringBitmap",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.9.45/RoaringBitmap-0.9.45.jar"
+                        },
+                        {
+                            "name": "RoaringBitmap",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/roaringbitmap/RoaringBitmap/0.9.45/RoaringBitmap-0.9.45-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpcore",
+                    "version": "4.4.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpcore",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar"
+                        },
+                        {
+                            "name": "httpcore",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.15.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.15.2/jackson-annotations-2.15.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-dboe-transaction",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-dboe-transaction",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-transaction/4.9.0/jena-dboe-transaction-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-dboe-transaction",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-transaction/4.9.0/jena-dboe-transaction-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-dboe-index",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-dboe-index",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-index/4.9.0/jena-dboe-index-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-dboe-index",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-index/4.9.0/jena-dboe-index-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty",
+                    "name": "jetty-server",
+                    "version": "10.0.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-server",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/10.0.15/jetty-server-10.0.15.jar"
+                        },
+                        {
+                            "name": "jetty-server",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/10.0.15/jetty-server-10.0.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.prometheus",
+                    "name": "simpleclient",
+                    "version": "0.16.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simpleclient",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0.jar"
+                        },
+                        {
+                            "name": "simpleclient",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient/0.16.0/simpleclient-0.16.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-csv",
+                    "version": "1.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-csv",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-csv/1.10.0/commons-csv-1.10.0.jar"
+                        },
+                        {
+                            "name": "commons-csv",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-csv/1.10.0/commons-csv-1.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "2.11.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.15/commons-codec-1.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-compress",
+                    "version": "1.23.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-compress",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.23.0/commons-compress-1.23.0.jar"
+                        },
+                        {
+                            "name": "commons-compress",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.23.0/commons-compress-1.23.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-collections4",
+                    "version": "4.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-collections4",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar"
+                        },
+                        {
+                            "name": "commons-collections4",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.ben-manes.caffeine",
+                    "name": "caffeine",
+                    "version": "3.1.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "caffeine",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.6/caffeine-3.1.6.jar"
+                        },
+                        {
+                            "name": "caffeine",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/3.1.6/caffeine-3.1.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.andrewoma.dexx",
+                    "name": "collection",
+                    "version": "0.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "collection",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/andrewoma/dexx/collection/0.7/collection-0.7.jar"
+                        },
+                        {
+                            "name": "collection",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/andrewoma/dexx/collection/0.7/collection-0.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.roaringbitmap",
+                    "name": "shims",
+                    "version": "0.9.45",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "shims",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/roaringbitmap/shims/0.9.45/shims-0.9.45.jar"
+                        },
+                        {
+                            "name": "shims",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/roaringbitmap/shims/0.9.45/shims-0.9.45-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.jena",
+                    "name": "jena-dboe-base",
+                    "version": "4.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jena-dboe-base",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-base/4.9.0/jena-dboe-base-4.9.0.jar"
+                        },
+                        {
+                            "name": "jena-dboe-base",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/jena/jena-dboe-base/4.9.0/jena-dboe-base-4.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.eclipse.jetty.toolchain",
+                    "name": "jetty-servlet-api",
+                    "version": "4.0.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-servlet-api",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6/jetty-servlet-api-4.0.6.jar"
+                        },
+                        {
+                            "name": "jetty-servlet-api",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/toolchain/jetty-servlet-api/4.0.6/jetty-servlet-api-4.0.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.prometheus",
+                    "name": "simpleclient_tracer_otel",
+                    "version": "0.16.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simpleclient_tracer_otel",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0.jar"
+                        },
+                        {
+                            "name": "simpleclient_tracer_otel",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel/0.16.0/simpleclient_tracer_otel-0.16.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.prometheus",
+                    "name": "simpleclient_tracer_otel_agent",
+                    "version": "0.16.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simpleclient_tracer_otel_agent",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0.jar"
+                        },
+                        {
+                            "name": "simpleclient_tracer_otel_agent",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.16.0/simpleclient_tracer_otel_agent-0.16.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.checkerframework",
+                    "name": "checker-qual",
+                    "version": "3.33.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "checker-qual",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar"
+                        },
+                        {
+                            "name": "checker-qual",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.errorprone",
+                    "name": "error_prone_annotations",
+                    "version": "2.18.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "error_prone_annotations",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar"
+                        },
+                        {
+                            "name": "error_prone_annotations",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.prometheus",
+                    "name": "simpleclient_tracer_common",
+                    "version": "0.16.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simpleclient_tracer_common",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar"
+                        },
+                        {
+                            "name": "simpleclient_tracer_common",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_3/3.2.16/scalatest_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_3/3.2.16/scalatest_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatestplus",
+                    "name": "scalacheck-1-16_3",
+                    "version": "3.2.14.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalacheck-1-16_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/scalacheck-1-16_3/3.2.14.0/scalacheck-1-16_3-3.2.14.0.jar"
+                        },
+                        {
+                            "name": "scalacheck-1-16_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatestplus/scalacheck-1-16_3/3.2.14.0/scalacheck-1-16_3-3.2.14.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-core_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-core_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_3/3.2.16/scalatest-core_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-core_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_3/3.2.16/scalatest-core_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-featurespec_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-featurespec_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_3/3.2.16/scalatest-featurespec_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-featurespec_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_3/3.2.16/scalatest-featurespec_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-flatspec_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-flatspec_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_3/3.2.16/scalatest-flatspec_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-flatspec_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_3/3.2.16/scalatest-flatspec_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-freespec_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-freespec_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_3/3.2.16/scalatest-freespec_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-freespec_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_3/3.2.16/scalatest-freespec_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funsuite_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funsuite_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_3/3.2.16/scalatest-funsuite_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-funsuite_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_3/3.2.16/scalatest-funsuite_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funspec_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funspec_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_3/3.2.16/scalatest-funspec_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-funspec_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_3/3.2.16/scalatest-funspec_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-propspec_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-propspec_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_3/3.2.16/scalatest-propspec_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-propspec_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_3/3.2.16/scalatest-propspec_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-refspec_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-refspec_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_3/3.2.16/scalatest-refspec_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-refspec_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_3/3.2.16/scalatest-refspec_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-wordspec_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-wordspec_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_3/3.2.16/scalatest-wordspec_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-wordspec_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_3/3.2.16/scalatest-wordspec_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-diagrams_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-diagrams_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_3/3.2.16/scalatest-diagrams_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-diagrams_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_3/3.2.16/scalatest-diagrams_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-matchers-core_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-matchers-core_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_3/3.2.16/scalatest-matchers-core_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-matchers-core_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_3/3.2.16/scalatest-matchers-core_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-shouldmatchers_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-shouldmatchers_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_3/3.2.16/scalatest-shouldmatchers_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-shouldmatchers_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_3/3.2.16/scalatest-shouldmatchers_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-mustmatchers_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-mustmatchers_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_3/3.2.16/scalatest-mustmatchers_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-mustmatchers_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_3/3.2.16/scalatest-mustmatchers_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalacheck",
+                    "name": "scalacheck_3",
+                    "version": "1.16.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalacheck_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_3/1.16.0/scalacheck_3-1.16.0.jar"
+                        },
+                        {
+                            "name": "scalacheck_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_3/1.16.0/scalacheck_3-1.16.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_3",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_3/3.2.16/scalactic_3-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalactic_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_3/3.2.16/scalactic_3-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-compatible",
+                    "version": "3.2.16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-compatible",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.16/scalatest-compatible-3.2.16.jar"
+                        },
+                        {
+                            "name": "scalatest-compatible",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.16/scalatest-compatible-3.2.16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_3",
+                    "version": "2.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_3",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_3/2.1.0/scala-xml_3-2.1.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_3",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_3/2.1.0/scala-xml_3-2.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-sbt",
+                    "name": "test-interface",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "test-interface",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+                        },
+                        {
+                            "name": "test-interface",
+                            "classifier": "sources",
+                            "path": "/home/ochi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
